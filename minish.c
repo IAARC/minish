@@ -20,6 +20,8 @@ int directorio_relativo(char *ruta);
 
 
 int main(int argc, char *argv[], char *envp[]){
+    (void)argc;
+    (void)argv;
     char buffer[1024];
     int minish_exit = 0;
     ssize_t bytes_leidos;
